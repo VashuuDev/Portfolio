@@ -62,29 +62,45 @@ section {
 }
 
 .project,
-article {
+.banner {
     border: 1px solid #1e3a8a;
     padding: 1rem;
     margin: 1rem 0;
     border-radius: 5px;
+    background-color: #e0f2ff;
 }
 
 .project h3,
-article h3 {
+.banner h3 {
     margin: 0 0 0.5rem 0;
     color: #1e3a8a;
 }
 
 .project p,
-article p {
+.banner p {
     margin: 0 0 1rem 0;
 }
 
 .project a,
-article a {
+.banner a {
     color: #3b82f6;
     text-decoration: none;
     font-weight: bold;
+}
+
+.banner a.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.banner a.btn:hover {
+    background-color: #1e3a8a;
 }
 
 footer {
@@ -125,4 +141,8 @@ footer {
     color: white;
     cursor: pointer;
     font-size: 1rem;
+}
+
+#contact-form button:hover {
+    background-color: #3b82f6;
 }
