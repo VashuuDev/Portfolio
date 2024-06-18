@@ -60,22 +60,38 @@ vashudeev-portfolio/
 - CSS
 - JavaScript
 
+
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch
+3. Make your changes.
+4. Commit your changes 
+5. Push to the branch 
+6. Open a pull request.
 
-- Fork the repository.
-- Create a new branch:
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, please contact Vashudeev at:
+
+- Email: vashudeev@example.com
+- LinkedIn: [Vashudeev's LinkedIn](https://www.linkedin.com/in/vashudeev)
+- GitHub: [Vashudeev's GitHub](https://github.com/VashuuDev)
+
 ## Contributors
 
 Thanks to these wonderful people:
 
-- [Sudhanshu Kumar](https://github.com/sudhaanshuu)  
-  <img src="https://sudhanshuuu.netlify.app/images/user.png" width="100" alt="Sudhanshu Kumar">
-## License
-
-## Contact
-vashudeev
+<!-- All contributors will be listed below -->
+<a href="https://github.com/sudhaanshuu">
+  <img src="https://sudhanshuuu.netlify.app/images/user.png" width="100" height="100" style="border-radius: 50%;" alt="Sudhanshu Kumar">
+  <br>
+  <sub><b>Sudhanshu Kumar</b></sub>
+</a>
 
 
 
