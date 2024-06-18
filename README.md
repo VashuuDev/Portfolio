@@ -30,7 +30,7 @@ This portfolio website includes an introduction to Vashudeev, highlights his ski
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/vashudeev-portfolio.git
+    git clone https://github.com/VashuuDev/vashudeev-portfolio.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -66,4 +66,16 @@ Contributions are welcome! Please follow these steps:
 
 - Fork the repository.
 - Create a new branch:
+## Contributors
+
+Thanks to these wonderful people:
+
+- [Sudhanshu Kumar](https://github.com/sudhaanshuu)  
+  <img src="https://sudhanshuuu.netlify.app/images/user.png" width="100" alt="Sudhanshu Kumar">
+## License
+
+## Contact
+vashudeev
+
+
 
