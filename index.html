@@ -3,115 +3,110 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vashudeev's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="png" href="images/20230729_022751.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Vashudeev's Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#banners">Banners</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Vashudeev, a web developer with a passion for creating beautiful and functional websites. With a strong foundation in HTML, CSS, and JavaScript, I strive to build responsive and user-friendly web applications.</p>
-        <img src="iMg/Vashu.jpg" alt="Vashudeev's Photo">
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>MongoDB</li>
-            <li>Git</li>
-            <li>Python</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>To-Do List</h3>
-            <p>A simple and interactive to-do list application to manage daily tasks efficiently.</p>
-            <a href="#">View Project</a>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="iMg/Vashu.jpg" class="logo"></img> -->
+                <ul>
+                    <b>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </b>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer and Designer</p>
+                <h1>I'm <span>Vashudeev</span><br>from Delhi</h1>
+            </div>
         </div>
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>This portfolio website showcases my skills, projects, and contact information in a professional manner.</p>
-            <a href="#">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Password Generator</h3>
-            <p>A web-based application that generates strong and secure passwords based on user-selected criteria.</p>
-            <a href="#">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Library Manager</h3>
-            <p>An application to manage books in a library, including adding, removing, and searching for books.</p>
-            <a href="#">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Banking Management System</h3>
-            <p>A comprehensive system for managing bank accounts, transactions, and customer information.</p>
-            <a href="#">View Project</a>
-        </div>
-    </section>
+    </div>
+    <!-- ----------ABOUT---------- -->
 
-    <section id="banners">
-        <h2>Banners</h2>
-        <div class="banner">
-            <h3>Special Offer!</h3>
-            <p>Get 20% off on our new product range. Limited time offer!</p>
-            <a href="#" class="btn">Learn More</a>
+    <!-- ----------SKILLS---------- -->
+
+    <!-- ----------PORTFOLIO--------- -->
+
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> Vashudeev@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 1234567890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> [Your Location]</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vashudeev"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/vashudeev"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/vashudeev"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vashudeev"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2">My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="#" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="_replyto" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="banner">
-            <h3>Join Our Newsletter</h3>
-            <p>Stay updated with the latest news and exclusive offers. Subscribe now!</p>
-            <a href="#" class="btn">Subscribe</a>
+        <div class="copyright">
+            <div>
+                <a href="https://www.instagram.com/vashudeev">
+                    <h2>Vashudeev</h2>
+                </a>
+            </div>
+            <div class="text-center text-muted">
+                <p>&copy; 2024 Vashudeev. All rights reserved.</p>
+            </div>
         </div>
-        <div class="banner">
-            <h3>Upcoming Webinar</h3>
-            <p>Don't miss our upcoming webinar on web development trends in 2024.</p>
-            <a href="#" class="btn">Register Now</a>
-        </div>
-    </section>
+    </div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
 
-            <button type="submit">Send</button>
-        </form>
-    </section>
+        document.querySelector('.fas.fa-times').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
 
-    <footer>
-        <p>&copy; 2024 Vashudeev. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
