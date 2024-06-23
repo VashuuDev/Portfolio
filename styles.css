@@ -84,6 +84,24 @@ nav ul li a:hover::after {
 
 /* Existing CSS styles for the "header-text" and other elements */
 
+.header-container {
+    position: relative;
+}
+
+.header-photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    /* Adjust the width of the photo container as needed */
+}
+
+.header-photo img {
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
 
 /* Media Queries for Responsiveness */
 
