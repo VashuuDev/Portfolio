@@ -117,7 +117,7 @@
                     <img src="iMg/pass.png" alt="Password Generator">
                     <div class="layer">
                         <h2>Password Generator</h2>
-                        <p>A web-based application that generates strong and secure passwords based on user-selected criteria.</p>
+                        <p>A web-based application that generates strong Password.</p>
                         <a href="#"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                     <img src="iMg/lib.png" alt="Library Manager">
                     <div class="layer">
                         <h2>Library Manager</h2>
-                        <p>An application to manage books in a library, including adding, removing, and searching for books.</p>
+                        <p>An application to manage books in a library.</p>
                         <a href="#"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
@@ -133,12 +133,12 @@
                     <img src="iMg/bank.jpg" alt="Banking Management System">
                     <div class="layer">
                         <h2>Banking Management System</h2>
-                        <p>A comprehensive system for managing bank accounts, transactions, and customer information.</p>
+                        <p>A system for managing bank accounts.</p>
                         <a href="#"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="https://github.com/Vashudeev?tab=repositories" class="btn">See more</a>
+            <a href="project.html" class="btn">See more</a>
         </div>
     </div>
 
@@ -159,6 +159,8 @@
                     </div>
                     <a href="resume.pdf" download class="btn btn2">My Resume</a>
                 </div>
+
+
                 <div class="contact-right">
                     <form action="#" method="POST">
                         <input type="text" name="Name" placeholder="Your Name" required>
@@ -180,33 +182,33 @@
             </div>
         </div>
     </div>
-
-    <script>
-        var tabLinks = document.getElementsByClassName('tab-links');
-        var tabContents = document.getElementsByClassName('tab-contents');
-
-        function openTab(tabName) {
-            for (tabLink of tabLinks) {
-                tabLink.classList.remove('active-link');
-            }
-            for (tabContent of tabContents) {
-                tabContent.classList.remove('active-tab');
-            }
-            event.currentTarget.classList.add('active-link');
-            document.getElementById(tabName).classList.add('active-tab');
-        }
-
-        // JavaScript for handling the mobile navigation menu
-        document.querySelector('.fas.fa-bars').addEventListener('click', function() {
-            document.querySelector('nav ul').classList.toggle('show');
-        });
-
-        document.querySelector('.fas.fa-times').addEventListener('click', function() {
-            document.querySelector('nav ul').classList.remove('show');
-        });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
-
 </body>
+
+<script>
+    var tabLinks = document.getElementsByClassName('tab-links');
+    var tabContents = document.getElementsByClassName('tab-contents');
+
+    function openTab(tabName) {
+        for (tabLink of tabLinks) {
+            tabLink.classList.remove('active-link');
+        }
+        for (tabContent of tabContents) {
+            tabContent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabName).classList.add('active-tab');
+    }
+
+    // JavaScript for handling the mobile navigation menu
+    document.querySelector('.fas.fa-bars').addEventListener('click', function() {
+        document.querySelector('nav ul').classList.toggle('show');
+    });
+
+    document.querySelector('.fas.fa-times').addEventListener('click', function() {
+        document.querySelector('nav ul').classList.remove('show');
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+
 
 </html>
