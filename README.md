@@ -78,7 +78,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries, please contact Vashudeev at:
 
-- Email: vashudeev@example.com
+- Email: vashudeev@gmail.com
 - LinkedIn: [Vashudeev's LinkedIn](https://www.linkedin.com/in/vashudeev)
 - GitHub: [Vashudeev's GitHub](https://github.com/VashuuDev)
 
