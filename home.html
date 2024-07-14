@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vashu</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-left">
+            <p><i class="fas fa-map-marker-alt"></i> Bhubaneswar</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/vashudeev"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/vashudeev"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/vashudeev"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/vashudeev"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="resume.pdf" download class="btn btn2">My Resume</a>
+        </div>
+
+        <div class="contact-right">
+            <form action="#" method="POST">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn3">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <div>
+            <a href="https://www.instagram.com/vashudeev">
+                <h2>Vashudeev</h2>
+            </a>
+        </div>
+        <div class="text-center text-muted">
+            <p>&copy; 2024 Vashudeev. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabLinks = document.getElementsByClassName('tab-links');
+            const tabContents = document.getElementsByClassName('tab-contents');
+
+            function openTab(tabName) {
+                Array.from(tabLinks).forEach(tabLink => {
+                    tabLink.classList.remove('active-link');
+                });
+                Array.from(tabContents).forEach(tabContent => {
+                    tabContent.classList.remove('active-tab');
+                });
+                event.currentTarget.classList.add('active-link');
+                document.getElementById(tabName).classList.add('active-tab');
+            }
+
+            document.querySelector('.fas.fa-bars').addEventListener('click', () => {
+                document.querySelector('nav ul').classList.toggle('show');
+            });
+
+            document.querySelector('.fas.fa-times').addEventListener('click', () => {
+                document.querySelector('nav ul').classList.remove('show');
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+</body>
+
+</html>
