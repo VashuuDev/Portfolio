@@ -43,7 +43,31 @@
         </div>
     </div>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabLinks = document.getElementsByClassName('tab-links');
+            const tabContents = document.getElementsByClassName('tab-contents');
 
+            function openTab(tabName) {
+                Array.from(tabLinks).forEach(tabLink => {
+                    tabLink.classList.remove('active-link');
+                });
+                Array.from(tabContents).forEach(tabContent => {
+                    tabContent.classList.remove('active-tab');
+                });
+                event.currentTarget.classList.add('active-link');
+                document.getElementById(tabName).classList.add('active-tab');
+            }
+
+            document.querySelector('.fas.fa-bars').addEventListener('click', () => {
+                document.querySelector('nav ul').classList.toggle('show');
+            });
+
+            document.querySelector('.fas.fa-times').addEventListener('click', () => {
+                document.querySelector('nav ul').classList.remove('show');
+            });
+        });
+    </script>
 </body>
 
 </html>
